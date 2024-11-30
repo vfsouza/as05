@@ -11,7 +11,7 @@ import os
 st.set_page_config(page_title="Assistente PDF", layout="wide")
 
 # Configuração do Gemini com API key fixa
-GOOGLE_API_KEY = os.environ.get("GOOGLE_API_KEY")
+GOOGLE_API_KEY = "AIzaSyBu8_iV7XHvLJD4bHlUFgf-0zcMSjcW2UY"
 genai.configure(api_key=GOOGLE_API_KEY)
 model = genai.GenerativeModel('gemini-pro')
 
