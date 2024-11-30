@@ -42,24 +42,6 @@ venv\Scripts\activate     # Windows
 pip install -r requirements.txt
 ```
 
-### 4. Configurar a variável de ambiente GOOGLE_API_KEY
-
-O aplicativo utiliza os.environ.get("GOOGLE_API_KEY") para acessar a chave de API. Para configurá-la, siga um dos métodos abaixo:
-
-No terminal, configure a variável de ambiente:
-
-Linux/MacOS:
-
-```bash
-export GOOGLE_API_KEY=SUA_CHAVE_DE_API
-```
-
-Windows:
-
-```bash
-set GOOGLE_API_KEY=SUA_CHAVE_DE_API
-```
-
 ## 🏃‍♂️ Execução
 
 Para iniciar o aplicativo, execute:
