@@ -96,4 +96,6 @@ Veja as respostas baseadas no conteúdo dos PDFs.
 
 # Link da aplicação: https://as05-vinicius-souza.streamlit.app/
 
+# Link Drive: https://drive.google.com/drive/folders/177odyLCcsvSa2nAJepyINYLAz6zLLpCq?usp=sharing
+
 # Github: https://github.com/vfsouza/as05
