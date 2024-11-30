@@ -31,7 +31,6 @@ cd seu-repositorio
 ### 2. Criar e ativar o ambiente virtual
 
 ```bash
-Copiar código
 python -m venv venv
 source venv/bin/activate  # Linux/MacOS
 venv\Scripts\activate     # Windows
@@ -40,7 +39,6 @@ venv\Scripts\activate     # Windows
 ### 3. Instalar dependências
 
 ```bash
-Copiar código
 pip install -r requirements.txt
 ```
 
@@ -53,22 +51,18 @@ No terminal, configure a variável de ambiente:
 Linux/MacOS:
 
 ```bash
-Copiar código
 export GOOGLE_API_KEY=SUA_CHAVE_DE_API
 ```
 
 Windows:
 
 ```bash
-Copiar código
 set GOOGLE_API_KEY=SUA_CHAVE_DE_API
 ```
 
 ## 🏃‍♂️ Execução
 
 Para iniciar o aplicativo, execute:
-
-Copiar código
 
 ```bash
 streamlit run main.py
